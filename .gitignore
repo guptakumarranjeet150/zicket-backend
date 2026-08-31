@@ -1,4 +1,3 @@
-.env
 dist
 node_modules
 coverage
@@ -11,3 +10,4 @@ yarn-error.log
 *.tar.gz
 *.tar
 *.gz
+config.bat
