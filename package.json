@@ -4,9 +4,9 @@
   "description": "Backend services for Zicket",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",
-    "start": "node dist/start.js",
-    "dev": "nodemon --watch 'src/**/*.ts' --exec npx ts-node src/start.ts",
+    "build": "node init && tsc",
+    "start": "node init && node dist/start.js",
+    "dev": "node init && nodemon --watch 'src/**/*.ts' --exec npx ts-node src/start.ts",
     "test": "jest",
     "test:watch": "jest --watch",
     "format": "prettier --write .",
